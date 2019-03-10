@@ -19,6 +19,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   ```
 
 ### Changed
+- Minimum supported Rust version is now 1.25.0 
+  ([#1035](https://github.com/nix-rust/nix/pull/1035))
 ### Fixed
 ### Removed
 
