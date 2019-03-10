@@ -17,6 +17,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
   ioctl_read_bad!(tcgets, libc::TCGETS, libc::termios);
   ```
+- Implemented `Clone`, `Copy`, `Debug`, `Eq`, `Hash`, and `PartialEq` for most
+  types that support them. ([#1035](https://github.com/nix-rust/nix/pull/1035))
 
 ### Changed
 - Minimum supported Rust version is now 1.25.0 
