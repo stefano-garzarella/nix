@@ -13,6 +13,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   ([#1069](https://github.com/nix-rust/nix/pull/1069))
 - Add `mkdirat`.
   ([#1084](https://github.com/nix-rust/nix/pull/1084))
+- Added `AF_VSOCK` to `AddressFamily`.
+  ([#1091](https://github.com/nix-rust/nix/pull/1091))
 
 ### Changed
 - Support for `ifaddrs` now present when building for Android.
